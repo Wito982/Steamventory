@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steamventory</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="https://kit.fontawesome.com/84041cc6a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <h1 id="title"><span class="icon-circle"><img src="icons/steamventory-icon.png" alt="Steam Icon" class="title-icon"></span> Steamventory</h1>
+        <div class="flags">
+            <img src="icons/spain-flag.png" alt="Spanish" title="Español" class="flag-icon" data-lang="es">
+            <img src="icons/united-kingdom-flag.png" alt="English" title="English" class="flag-icon" data-lang="en">
+            <img src="icons/portuguese-flag.png" alt="Portuguese" title="Português" class="flag-icon" data-lang="pt">
+            <img src="icons/chinese-flag.png" alt="Chinese" title="中文" class="flag-icon" data-lang="zh">
+        </div>
+    </div>
+    <div class="container">
+        <p class="description" id="description">
+            Busca al usuario en Steam y copia su ID o nombre de usuario en el campo a continuación.
+            Los juegos que ya estén en la biblioteca de alguno de los usuarios aparecerán con el marcador 
+            <img src="icons/bookmark-solid.svg" alt="Bookmark Icon" style="width: 18px; height: 18px; vertical-align: middle;">
+        </p>
+        <input type="text" id="steamIdInput" placeholder="Enter Steam IDs separated by space">
+        <button id="fetchGamesButton">Fetch Games</button>
+        <div class="games-container">
+            <ul id="gameList"></ul>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p id="footer-github">We are not affiliated with Steam. This is a non-profit project. If you want to donate, you can support us on <a href="https://ko-fi.com" target="_blank">Ko-fi</a>.</p>
+            <p id="footer-poweredBy">Powered by Wito  <a href="https://github.com/your-github-repo" target="_blank"><img class="fab fa-github" src="ions/github.svg" ></a></p>
+        </div>
+    </footer>
+    <script src="popup.js"></script>
+</body>
+</html>

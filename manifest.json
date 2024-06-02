@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Steamventory",
+  "version": "1.0",
+  "description": "Fetch and display Steam games for a user ID.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "scripting",
+    "https://steamcommunity.com/*",
+    "https://store.steampowered.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://steamcommunity.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/steamventory-icon.png",
+      "48": "icons/steamventory-icon.png",
+      "128": "icons/steamventory-icon.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/bookmark-solid.svg"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

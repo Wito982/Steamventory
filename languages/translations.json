@@ -1,0 +1,43 @@
+{
+    "en": {
+      "title": "Steamventory",
+      "description": "Use the extension on your wishlist, search for the user on Steam and copy the name or numeric code after id or profile (steamcommunity.com/profiles/xxxxxx or steamcommunity.com/id/xxxxxx) into the field below. Games that are already in any of the users' libraries will appear with the icon",
+      "placeholder": "Steam IDs separated by space",
+      "fetchButton": "Fetch Games",
+      "footer": {
+        "github": "We are not affiliated with Steam. This is a non-profit project. If you want to donate, you can support us on",
+        "poweredBy": "Powered by Wito"
+      }
+    },
+    "es": {
+      "title": "Steamventory",
+      "description": "Usa la extensión en tu lista de deseados, busca al usuario en Steam y copia el nombre o código numérico tras id o profile (steamcommunity.com/profiles/xxxxxx o steamcommunity.com/id/xxxxxx) en el campo a continuación. Los juegos que ya estén en la biblioteca de alguno de los usuarios aparecerán con el icono",
+      "placeholder": "Steam IDs separados por espacio",
+      "fetchButton": "Buscar Juegos",
+      "footer": {
+        "github": "No estamos afiliados con Steam. Este es un proyecto sin ánimo de lucro. Si quieres donar, puedes apoyarnos en",
+        "poweredBy": "Desarrollado por Wito"
+      }
+    },
+    "pt": {
+      "title": "Steamventory",
+      "description": "Use a extensão na sua lista de desejos, procure o usuário no Steam e copie o nome ou código numérico após id ou profile (steamcommunity.com/profiles/xxxxxx ou steamcommunity.com/id/xxxxxx) no campo abaixo. Jogos que já estão na biblioteca de qualquer um dos usuários aparecerão com o ícone",
+      "placeholder": "IDs do Steam separados por espaço",
+      "fetchButton": "Buscar Jogos",
+      "footer": {
+        "github": "Não somos afiliados ao Steam. Este é um projeto sem fins lucrativos. Se você quiser doar, pode nos apoiar no",
+        "poweredBy": "Desenvolvido por Wito"
+      }
+    },
+    "zh": {
+      "title": "Steamventory",
+      "description": "在愿望清单中使用此扩展，在 Steam 上搜索用户并将 id 或 profile 后的名称或数字代码（steamcommunity.com/profiles/xxxxxx 或 steamcommunity.com/id/xxxxxx）复制到下面的字段中。已经在任何用户的库中的游戏将显示带有图标",
+      "placeholder": "输入 Steam ID 或用户名，用空格分隔",
+      "fetchButton": "获取游戏",
+      "footer": {
+        "github": "我们与 Steam 无关。这是一个非盈利项目。如果你想捐款，可以在",
+        "poweredBy": "由 Wito 提供支持"
+      }
+    }
+  }
+  
