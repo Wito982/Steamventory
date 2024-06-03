@@ -24,10 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('steamIdInput').placeholder = translations[lang].placeholder;
       fetchGamesButton.textContent = translations[lang].fetchButton;
       document.getElementById('footer-github').innerHTML = translations[lang].footer.github + 
-        ' <a href="https://ko-fi.com" target="_blank">Ko-fi</a>.';
+        ' <a href="https://ko-fi.com/wito982" target="_blank">Ko-fi</a>.';
         const footerPoweredBy = document.getElementById('footer-poweredBy');
         footerPoweredBy.innerHTML = translations[lang].footer.poweredBy + 
-            ' <a href="https://github.com/your-github-repo" target="_blank"><img class="fab fa-github" style="width: 14px;" src="icons/github.svg" ></a>';
+            ' <a href="https://github.com/Wito982/Steamventory/" target="_blank"><img class="fab fa-github" style="width: 14px;" src="icons/github.svg" ></a>';
     }
   
     if (fetchGamesButton) {
