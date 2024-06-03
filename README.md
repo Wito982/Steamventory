@@ -14,9 +14,10 @@ Steamventory is a free, ad-free, and open-source browser extension that helps yo
 
 1. Open Steamventory in your wishlist.
 2. Enter the IDs or usernames from the Steam community URL to see the names of their games.
-   ![image](https://github.com/Wito982/Steamventory/assets/171517332/678f70c8-4ca6-4b27-beca-c0fce999a5c6)
 
-3. The extension will automatically mark the games that are already in the family library with a bookmark icon and the username of the person who has it.
+    ![image](https://github.com/Wito982/Steamventory/assets/171517332/678f70c8-4ca6-4b27-beca-c0fce999a5c6)
+
+4. The extension will automatically mark the games that are already in the family library with a bookmark icon and the username of the person who has it.
    ![image](https://github.com/Wito982/Steamventory/assets/171517332/e802f0df-b962-48a3-98a8-69f04c80d228)
 
 ## Supported Languages
